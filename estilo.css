@@ -1,0 +1,51 @@
+body{background:darkkhaki;
+    font-family: "Quicksand", sans-serif;
+}
+
+header{
+    border-bottom:solid 1px black;
+    margin: 0px;
+    font-size:30;
+    color:black
+}
+
+.primeira{
+    background: darkgreen;
+    padding-bottom:80px;
+    padding-top:80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right:5%;
+} 
+
+H1{ font-size:35px;}
+
+p{ font-size:20px;}
+
+img{
+    height:200px;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-rihght: 20px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 2.0;
+    border: 1px solid green;
+}
